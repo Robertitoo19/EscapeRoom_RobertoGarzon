@@ -471,6 +471,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4817149377995656572}
   - component: {fileID: 8081082332602259471}
+  - component: {fileID: 7771621289775366226}
   - component: {fileID: 7402582929842071410}
   - component: {fileID: 2291245431102681410}
   - component: {fileID: 4761689728404595795}
@@ -523,7 +524,38 @@ MonoBehaviour:
   detectionRadius: 0.5
   whatIsGround:
     serializedVersion: 2
-    m_Bits: 55
+    m_Bits: 8
+--- !u!114 &7771621289775366226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6700706132717561031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: e195c073ab72e7d48bc173536120a3e5,
+    type: 3}
+  m_NotificationBehavior: 3
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents: []
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: GamePlay
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
 --- !u!33 &7402582929842071410
 MeshFilter:
   m_ObjectHideFlags: 0
